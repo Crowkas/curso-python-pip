@@ -17,6 +17,6 @@ def generate_pie_chart():
     values = [var_1, var_2, var_3]
 
     fig, ax = plt.subplots()
-    ax.pie(values, labels = labels)
+    ax.pie(values, labels = labels, autopct='%1.1f%%')
     plt.savefig('pie.png')
     plt.close()
