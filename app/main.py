@@ -18,7 +18,7 @@ def run():
     print("Gráfico de pie generado exitosamente.")
 
     result = utils.population_by_country(data, country)
-    #print(result)
+    
     if result:
       print("País encontrado en los datos.")
       country_dict = result[0]
